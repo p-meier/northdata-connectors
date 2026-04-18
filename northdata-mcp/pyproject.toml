@@ -1,6 +1,6 @@
 [project]
 name = "northdata-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server exposing the NorthData CLI tools (via FastMCP v3)."
 readme = "README.md"
 license = { text = "MIT" }

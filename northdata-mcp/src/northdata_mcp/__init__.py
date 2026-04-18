@@ -7,6 +7,6 @@ for API behavior and credit accounting.
 
 from northdata_mcp.server import create_server, main
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = ["create_server", "main", "__version__"]
