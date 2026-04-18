@@ -6,6 +6,8 @@
 [![PyPI — northdata-mcp](https://img.shields.io/pypi/v/northdata-mcp?label=northdata-mcp)](https://pypi.org/project/northdata-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+> **Unofficial project.** This repository is an independent, community-maintained wrapper around the NorthData API. It is **not developed, endorsed, or supported by NorthData GmbH**. "NorthData" is a trademark of its respective owner; all company data accessed through this tooling remains subject to [NorthData's own terms of service](https://www.northdata.de/_agb). For the official API documentation, see [northdata.com/doc/api](https://www.northdata.com/doc/api).
+
 This monorepo ships three layers on top of the NorthData API:
 
 | Package | What it is | Install |
