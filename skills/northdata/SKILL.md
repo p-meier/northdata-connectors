@@ -159,6 +159,6 @@ Only set when the user has explicitly agreed to spend more. Never set preemptive
 
 ## Resources
 
-- NorthData API docs: <https://www.northdata.com/doc/api>
+- NorthData API docs: <https://github.com/northdata/api>
 - CLI package: `northdata-cli/` (this repo)
 - MCP server: `northdata-mcp/` (this repo)

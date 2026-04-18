@@ -168,7 +168,7 @@ Tests use FastMCP's in-memory transport — no subprocess, no network. The under
 
 - **Model Context Protocol:** <https://modelcontextprotocol.io>
 - **FastMCP v3 docs:** <https://gofastmcp.com>
-- **NorthData API:** <https://www.northdata.com/doc/api>
+- **NorthData API:** <https://github.com/northdata/api>
 - **Sibling package:** [`northdata-cli`](../northdata-cli) — same tools, plain command-line
 
 ---

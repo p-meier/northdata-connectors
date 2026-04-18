@@ -6,7 +6,7 @@
 [![PyPI — northdata-mcp](https://img.shields.io/pypi/v/northdata-mcp?label=northdata-mcp)](https://pypi.org/project/northdata-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **Unofficial project.** This repository is an independent, community-maintained wrapper around the NorthData API. It is **not developed, endorsed, or supported by NorthData GmbH**. "NorthData" is a trademark of its respective owner; all company data accessed through this tooling remains subject to [NorthData's own terms of service](https://www.northdata.de/_agb). For the official API documentation, see [northdata.com/doc/api](https://www.northdata.com/doc/api).
+> **Unofficial project.** This repository is an independent, community-maintained wrapper around the NorthData API. It is **not developed, endorsed, or supported by NorthData GmbH**. "NorthData" is a trademark of its respective owner; all company data accessed through this tooling remains subject to [NorthData's own terms of service](https://www.northdata.de/_agb). For the official API documentation, see [github.com/northdata/api](https://github.com/northdata/api).
 
 This monorepo ships three layers on top of the NorthData API:
 
@@ -126,6 +126,6 @@ MIT. See [LICENSE](northdata-cli/LICENSE).
 
 ## Links
 
-- **NorthData API docs:** <https://www.northdata.com/doc/api>
+- **NorthData API docs:** <https://github.com/northdata/api>
 - **Model Context Protocol:** <https://modelcontextprotocol.io>
 - **Claude Skills (skills.sh):** <https://skills.sh>
