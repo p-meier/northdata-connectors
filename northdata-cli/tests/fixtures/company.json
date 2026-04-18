@@ -1,0 +1,12 @@
+{
+  "name": "Example GmbH",
+  "address": { "city": "Munich", "country": "DE", "postalCode": "80333" },
+  "register": { "uniqueKey": "12803330123456", "id": "HRB 123456", "court": "Muenchen" },
+  "status": "active",
+  "owners": [
+    { "name": "Max Mustermann", "sharesPercent": 100 }
+  ],
+  "representatives": [
+    { "name": "Max Mustermann", "role": "Geschäftsführer" }
+  ]
+}

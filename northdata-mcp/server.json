@@ -1,0 +1,53 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.p-meier/northdata-mcp",
+  "description": "MCP server for the NorthData API (German commercial-register, financials, shareholders). Wraps suggest, power search, company, person, publications, reference, and billing with a built-in credit guard.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/p-meier/northdata-connectors",
+    "source": "github",
+    "subfolder": "northdata-mcp"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "northdata-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "NORTHDATA_API_KEY",
+          "description": "Your NorthData API key. Obtain one at https://www.northdata.com",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "NORTHDATA_APPROVAL_THRESHOLD",
+          "description": "Power-search 'limit' above this requires approve_high_cost=true. Default: 25.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "number"
+        },
+        {
+          "name": "NORTHDATA_ABSOLUTE_MAX",
+          "description": "Hard ceiling for power-search 'limit'. Default: 100. Flag-immune.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "number"
+        },
+        {
+          "name": "NORTHDATA_CREDIT_LOG",
+          "description": "Path to the local credit log file. Default: ~/.northdata/credits.jsonl",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

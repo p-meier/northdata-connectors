@@ -1,0 +1,49 @@
+[project]
+name = "northdata-mcp"
+version = "0.1.0"
+description = "MCP server exposing the NorthData CLI tools (via FastMCP v3)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Patrick Meier", email = "me@patrick-meier.io" }]
+keywords = ["northdata", "mcp", "fastmcp", "model-context-protocol", "handelsregister", "claude"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "fastmcp>=3.0.0,<4",
+    "northdata-cli>=0.1.0,<0.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+northdata-mcp = "northdata_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/p-meier/northdata-connectors"
+Repository = "https://github.com/p-meier/northdata-connectors"
+Issues = "https://github.com/p-meier/northdata-connectors/issues"
+Documentation = "https://github.com/p-meier/northdata-connectors/tree/main/northdata-mcp#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/northdata_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-ra --strict-markers"

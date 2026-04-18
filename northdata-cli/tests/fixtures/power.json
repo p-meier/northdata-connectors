@@ -1,0 +1,9 @@
+{
+  "censored": false,
+  "nextOffset": 5,
+  "nextPos": "NEXT-POS-TOKEN",
+  "items": [
+    { "name": "Alpha GmbH", "register": { "uniqueKey": "118000000001" } },
+    { "name": "Beta GmbH", "register": { "uniqueKey": "118000000002" } }
+  ]
+}

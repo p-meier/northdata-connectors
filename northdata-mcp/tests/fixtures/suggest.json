@@ -1,0 +1,5 @@
+{
+  "items": [
+    { "name": "Example GmbH", "address": { "city": "Munich" } }
+  ]
+}

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.whl
+*.tar.gz
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Credentials / local config
+.env
+.env.local
+*.local
+~/.northdata/
+
+# Node (for npx skills etc.)
+node_modules/
+.npm/
+
+# mcp-publisher local state
+.mcp-publisher/
+
+# Legacy skill zip (skills.sh + Clawhub are the current distribution paths)
+*.skill
+
+# Local-only sample diagrams (contain client-specific workflow context)
+diagrams/
+
+# Plans
+/.claude/plans/

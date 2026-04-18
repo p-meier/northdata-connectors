@@ -1,0 +1,6 @@
+{
+  "name": "Example GmbH",
+  "address": { "city": "Munich", "country": "DE" },
+  "register": { "id": "HRB 1", "court": "Muenchen", "uniqueKey": "118000000001" },
+  "status": "active"
+}
